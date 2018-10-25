@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structbiomodel_1_1segment_1_1Segment.html" title="biomodel::segment::\lSegment" alt="" coords="5,71,145,112"/>
+<area shape="rect" id="node2" href="$structbiomodel_1_1segment_1_1BodySegment.html" title="biomodel::segment::\lBodySegment" alt="" coords="193,5,333,47"/>
+<area shape="rect" id="node3" href="$structbiomodel_1_1segment_1_1CyborgSegment.html" title="biomodel::segment::\lCyborgSegment" alt="" coords="193,71,333,112"/>
+<area shape="rect" id="node4" href="$structbiomodel_1_1segment_1_1PeripheralSegment.html" title="biomodel::segment::\lPeripheralSegment" alt="" coords="193,136,333,177"/>
+</map>
