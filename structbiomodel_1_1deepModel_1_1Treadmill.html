@@ -78,14 +78,12 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for biomodel::deepModel::Treadmill:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structbiomodel_1_1deepModel_1_1Treadmill__inherit__graph.svg" width="156" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structbiomodel_1_1deepModel_1_1Treadmill__inherit__graph.svg" width="156" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for biomodel::deepModel::Treadmill:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structbiomodel_1_1deepModel_1_1Treadmill__coll__graph.svg" width="156" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structbiomodel_1_1deepModel_1_1Treadmill__coll__graph.svg" width="156" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -99,6 +97,12 @@ Public Member Functions</h2></td></tr>
 <p><a class="el" href="structbiomodel_1_1deepModel_1_1Treadmill.html" title="Complete model for Treadmill 2.0. ">Treadmill</a> <a class="el" href="structbiomodel_1_1deepModel_1_1Model.html">Model</a></p>
 <p><a class="el" href="structbiomodel_1_1deepModel_1_1Model.html">Model</a> has a following structure: <br />
 <br />
+</p><div class="image">
+<img src="biomodel-treadmill.png" alt="biomodel-treadmill.png"/>
+</div>
+<p> <br />
+and is serialized as follows:<br />
+<br />
 CRANE ORIENTATION DYNAMIC <br />
 \ DISTANCE DISPLACEMENT DYNAMIC <br />
 \ \ BACKPACK ORIENTATION DYNAMIC <br />
@@ -109,7 +113,7 @@ CRANE ORIENTATION DYNAMIC <br />
 \ \ \ \ RIGHT_LEG_UPPER ORIENTATION DYNAMIC <br />
 \ \ \ \ \ RIGHT_LEG_LOWER ORIENTATION DYNAMIC <br />
 <br />
-Each frame contains the current orientation (euler yaw/pitch/roll angles) and displacement (3 dimensional relative offset) for each dynamic component:<br />
+Each frame contains the current orientation (euler yaw/pitch/roll angles) and displacement (3 dimensional relative offset) for each dynamic component (all in dark khaki color):<br />
 <br />
 CRANE<br />
 DISTANCE<br />
@@ -117,9 +121,20 @@ BACKPACK<br />
 LEFT_LEG_UPPER<br />
 LEFT_LEG_LOWER<br />
 RIGHT_LEG_UPPER<br />
-RIGHT_LEG_LOWER </p>
+RIGHT_LEG_LOWER<br />
+<br />
+For example the frame with the squat position towards West may have the following shape:<br />
+270.0 20.0 0.0 <br />
+0.0 700.0 0.0 <br />
+0.0 -20.0 0.0 <br />
+0.0 45.0 0.0 <br />
+0.0 -45.0 0.0 <br />
+0.0 45.0 0.0 <br />
+0.0 -45.0 0.0 <br />
+<br />
+, where the line with displacement express offset along y axis in millimeters, and the other values stands for yaw, pitch, roll in degrees. </p>
 
-<p class="definition">Definition at line <a class="el" href="deepModel_2Treadmill_8h_source.html#l00041">41</a> of file <a class="el" href="deepModel_2Treadmill_8h_source.html">Treadmill.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="deepModel_2Treadmill_8h_source.html#l00059">59</a> of file <a class="el" href="deepModel_2Treadmill_8h_source.html">Treadmill.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>include/deepModel/<a class="el" href="deepModel_2Treadmill_8h_source.html">Treadmill.h</a></li>
 </ul>
